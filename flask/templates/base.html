@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meda charset="utf-8">
+	<title>圖書管理系統-{% block title %}{% endblock%}</title>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/book.css')}}">
+</head>
+<body>
+<!--頁面頭部訊息-->
+{% with messages=get_flashed_messages(True,['error','info']) %}
+    {% if messages %}
+        <ul>
+    	    {% for message in messages%}
+                {% if message[0]=='info' %}
+    	            <li class='success'>{{ message[1]}}</li>
+    	        {% else %}
+                    <li class='error'>{{ message[1]}}</li>
+    	        {% endif %}
+    	    {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+<div id="header">
+	<img src="{{url_for('static',filename='images/bookimage.png')}}" width="30px" height="30px">
+	{% block head %}{% endblock %}
+	<hr/>
+</div>`
+<!--頁面內容訊息-->
+<div id="content">
+	{% block body %}
+	{% endblock%}
+</div>
+<!--頁面底部訊息-->	
+<div id="footer">
+	<hr/>
+	Copyright @ Erik Cop. 1993-2018. All Rights Reserved
+</div>
+</body>
+</html> 

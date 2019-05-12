@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}
+用戶註冊
+{% endblock %}
+{% block head %}
+用戶登錄
+{% endblock %}
+{% block body %}
+<!--頁面內容訊息-->
+	<table width="40%" border="0">
+	<tbody>
+		<tr>
+			<td class="label">用戶ID：</td>
+			<td><input type="text"/></td>
+		</tr>
+		<tr>
+			<td class="label">密碼：</td>
+			<td><input type="password"/></td>
+		</tr>
+		<tr>
+			<td class="label">再次輸入密碼：</td>
+			<td><input type="password"/></td>
+		</tr>
+		<tr>
+			<td class="label">電子郵件：</td>
+			<td><input type="text"/></td>
+		</tr>
+		<tr align="center">
+			<td colspan="4">
+			<input type="submit" value="確定">
+			<input type="reset" value="取消">
+			</td>
+		</tr>
+	</tbody>
+	</table>
+{% endblock %}

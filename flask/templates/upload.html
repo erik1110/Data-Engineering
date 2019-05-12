@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!--上傳文件客戶端網頁表單-->
+<html>
+<head>
+	<title>上傳文件</title>
+</head>
+
+<form action="/upload" method="POST"
+	  enctype="multipart/form-data">
+	  <input type="file" name="myfile"><br><br>
+	  <input type="submit" name="開始上傳">
+</form>
+</body>
+</html>
+<!--表單method="POST"
+表單enctype="multipart/form-data",當上傳的內容是非文本,如圖片等時,需要將form的enctype="multipart/form-data",enctype是編碼類型
+使用HTML上傳,<input type="submit" name="myfile"-->
