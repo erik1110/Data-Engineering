@@ -24,3 +24,15 @@ This is a story related to data-engineering.
   
 - pyautogui
 
+
+## Chapter 4 : Unittest
+
+- 軟件開發流程
+
+  1.需求分析
+  2.架構模塊設計
+  3.coding
+  4.[單元測試](https://imsardine.wordpress.com/tech/unit-testing-in-python/)
+  5.集成測試
+  6.系統測試
+  7.驗收
