@@ -20,7 +20,10 @@ This is a story related to data-engineering.
 
 - Selenium
   
-  1.[tooltip](https://github.com/erik1110/Data-Engineering/blob/master/RPA/selenium_tooltip.ipynb)
+  1.[Basic]
+  2.[tooltip](https://github.com/erik1110/Data-Engineering/blob/master/RPA/selenium_tooltip.ipynb)
+  3.[css](https://jzchangmark.wordpress.com/2015/03/16/selenium-%E4%BD%BF%E7%94%A8-css-locator-%E5%AE%9A%E4%BD%8D%E5%85%83%E4%BB%B6/)
+  
   
 - pyautogui
 
