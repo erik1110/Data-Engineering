@@ -21,7 +21,9 @@ This is a story related to data-engineering.
 - Selenium
   
   1.[Basic]
+  
   2.[tooltip](https://github.com/erik1110/Data-Engineering/blob/master/RPA/selenium_tooltip.ipynb)
+  
   3.[css](https://jzchangmark.wordpress.com/2015/03/16/selenium-%E4%BD%BF%E7%94%A8-css-locator-%E5%AE%9A%E4%BD%8D%E5%85%83%E4%BB%B6/)
   
   
@@ -33,9 +35,15 @@ This is a story related to data-engineering.
 - 軟件開發流程
 
   1.需求分析
+  
   2.架構模塊設計
+  
   3.coding
+  
   4.[單元測試](https://imsardine.wordpress.com/tech/unit-testing-in-python/)
+  
   5.集成測試
+  
   6.系統測試
+  
   7.驗收
