@@ -50,7 +50,9 @@ A data engineer is a worker whose primary job responsibilities involve preparing
   7.驗收
 
 ## Chapter 5 : PostgreSQL
-  
+
+  ![Image](https://github.com/erik1110/Data-Engineering/blob/master/PostgreSQL/PostgreSQL.JPG)
+
   1.[PostgreSQL基礎](https://github.com/erik1110/Data-Engineering/blob/master/PostgreSQL/PostgreSQL%E6%95%99%E5%AD%B8.pdf)
   
   2.[PostgreSQL修煉之道](https://github.com/erik1110/Data-Engineering/blob/master/PostgreSQL/PostgreSQL%20%E4%BF%AE%E7%85%89%E4%B9%8B%E9%81%93.pdf)
