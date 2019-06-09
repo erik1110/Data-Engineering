@@ -1,6 +1,6 @@
 # Data-Engineering
 
-This is a story related to data-engineering.
+A data engineer is a worker whose primary job responsibilities involve preparing data for analytical or operational uses.
 
 ## Chapter 0 : Python Basic
 
