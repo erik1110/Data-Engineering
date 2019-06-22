@@ -10,6 +10,8 @@ A data engineer is a worker whose primary job responsibilities involve preparing
   
   3.[Class類別](https://github.com/erik1110/Data-Engineering/blob/master/Basic/Class.ipynb)
   
+  4.[Module](https://github.com/erik1110/Data-Engineering/blob/master/Basic/Module.ipynb)
+  
 ## Chapter 1 : Linux
 
 
