@@ -8,6 +8,8 @@ A data engineer is a worker whose primary job responsibilities involve preparing
   
   2.[什麼是 if _＿name＿_==“＿main＿”？](https://blog.castman.net/教學/2018/01/27/python-name-main.html)
   
+  3.[Class類別](https://github.com/erik1110/Data-Engineering/blob/master/Basic/Class.ipynb)
+  
 ## Chapter 1 : Linux
 
 
