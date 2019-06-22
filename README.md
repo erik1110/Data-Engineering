@@ -63,3 +63,9 @@ A data engineer is a worker whose primary job responsibilities involve preparing
   1.[PostgreSQL基礎](https://github.com/erik1110/Data-Engineering/blob/master/PostgreSQL/PostgreSQL%E6%95%99%E5%AD%B8.pdf)
   
   2.[PostgreSQL修煉之道](https://github.com/erik1110/Data-Engineering/blob/master/PostgreSQL/PostgreSQL%20%E4%BF%AE%E7%85%89%E4%B9%8B%E9%81%93.pdf)
+
+## Chapter 6 : JavaScript
+
+  1.[JavaScript 基礎](https://github.com/erik1110/Data-Engineering/blob/master/javascipt/script.js)
+  
+ 
