@@ -135,3 +135,94 @@ function returnfunction(a){
 var result = returnfunction(100);
 
 console.log(result);
+
+//============================= Array 數組 =====================================
+
+var names = ['A','B','C'];
+var numbers =[1,2,3,4,5];
+
+names[names.indexOf('A')]='X';
+
+console.log(names);
+console.log(numbers[0]);
+
+var ken =['Ken',28,'teacher'];
+
+console.log(ken[1]);
+
+// 在後面添加新元素
+names.push('D')
+console.log(names);
+// 在前面添加新元素
+names.unshift('Chris')
+console.log(names);
+// 移除前面元素
+names.shift();
+console.log(names);
+// 移除後面元素
+names.pop();
+console.log(names);
+// 了解位置
+console.log(names.indexOf('B'));
+
+//============================= Object 對象 ====================================
+
+var dict ={
+  name:'Ken',
+  lastname:'Chen',
+  age:30,
+  job:'teacher'
+}
+
+
+ dict['name']='Jacky';
+ console.log(dict['name']);
+
+ dict.name='Ken';
+ console.log(dict['name']);
+
+
+ var dict2 = new Object();
+
+ dict2.name='Jacky';
+ dict2.lastname='Tsai';
+ dict2.age=25;
+ console.log(dict2);
+
+//======================= fuction 與 Array、Object =============================
+
+var dict ={
+  name:'Ken',
+  lastname:'Chen',
+  age:30,
+  job:'teacher',
+  family:['A','B','C'],
+  calculate:function yearOfBirth(myage){
+
+  return 2019 - myage;
+
+
+  }
+}
+
+console.log(dict.family[1]);
+console.log(dict.calculate(30));
+
+//================================= this  ======================================
+
+var dict ={
+  name:'Ken',
+  lastname:'Chen',
+  age:30,
+  job:'teacher',
+  family:['A','B','C'],
+  calculate:function yearOfBirth(){
+
+  this.yearOfBirth = 2019 - this.age;
+
+
+  }
+}
+
+dict.calculate();
+console.log(dict);
