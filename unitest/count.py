@@ -1,5 +1,5 @@
 class Count(object):
-    
+    version=1.5
     def add(self,x,y):
         return x+y
     
