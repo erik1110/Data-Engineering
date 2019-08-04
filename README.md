@@ -12,6 +12,8 @@ A data engineer is a worker whose primary job responsibilities involve preparing
   
   4.[Module](https://github.com/erik1110/Data-Engineering/blob/master/Basic/Module.ipynb)
   
+  5.[裝飾器](https://blog.techbridge.cc/2018/06/15/python-decorator-introduction/)
+  
 ## Chapter 1 : Linux
 
 
@@ -49,6 +51,8 @@ A data engineer is a worker whose primary job responsibilities involve preparing
   3.coding
   
   4.[單元測試](https://imsardine.wordpress.com/tech/unit-testing-in-python/)
+  
+  - [簡單Case](https://github.com/erik1110/Data-Engineering/blob/master/unitest/unitest.py)
   
   5.集成測試
   
