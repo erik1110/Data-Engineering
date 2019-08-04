@@ -3,7 +3,7 @@ import unittest
 from count import Count
 
 class TestCount(unittest.TestCase):
-    
+
     def setUp(self):
         #print('setUp')
         self.obj=Count()
@@ -12,14 +12,26 @@ class TestCount(unittest.TestCase):
         #print('tearDown')
         self.obj=None
 
+    #use decorator to skip this test
+    @unittest.skip(reason='No Test')
     def test_add(self):
         self.assertEqual(self.obj.add(10,20),30)
-    
+
+    #user decorator to skip low version
+    #If the version retruns True,skip it
+    @unittest.skipIf(Count.version==1.0,reason='Low version')
     def test_sub(self):
         self.assertEqual(self.obj.sub(10,6),4)
 
+    #skip everything unless the version returns True
+    @unittest.skipUnless(Count.version==1.5,reason='Low version')
     def test_sum(self):
-        pass
+        self.assertEqual(self.obj.add(10,3),13)
+
+    #You expect it will fail,and you don't want it to report
+    @unittest.expectedFailure
+    def test_sum(self):
+        self.assertEqual(self.obj.add(10,3),3)
 
     def priv_case(self):
         pass
@@ -45,7 +57,7 @@ def get_suite():
 class CountTestSuite(unittest.TestSuite):
     def __init__(self):
         case_list=['add_test','sub_test']
-        unittest.TestSuite.__init__(self,map(TestCount,case_list))
+        unittest.TestSuite. __init__(self,map(TestCount,case_list))
 
 
 if __name__ == '__main__':
