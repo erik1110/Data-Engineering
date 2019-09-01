@@ -21,7 +21,7 @@ A data engineer is a worker whose primary job responsibilities involve preparing
 
 ## Chapter 2 : flask
 
-
+1.[WebService SOAP XML 與 REST JSON 架構的比較](https://www.itread01.com/content/1546260875.html)
 
 
 ## Chapter 3 : RPA
